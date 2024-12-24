@@ -1,6 +1,3 @@
-#ifndef LONGEST_COMMON_PREFIX_HPP
-#define LONGEST_COMMON_PREFIX_HPP
-
 #include <string>
 #include <vector>
 using namespace std;
@@ -22,5 +19,3 @@ public:
     return longestPrefix;
   };
 };
-
-#endif // LONGEST_COMMON_PREFIX_HPP

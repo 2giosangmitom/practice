@@ -1,6 +1,3 @@
-#ifndef SORT_AN_ARRAY_HPP
-#define SORT_AN_ARRAY_HPP
-
 #include <vector>
 using namespace std;
 
@@ -60,5 +57,3 @@ public:
     return nums;
   };
 };
-
-#endif // SORT_AN_ARRAY_HPP

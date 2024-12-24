@@ -1,6 +1,3 @@
-#ifndef ADD_TWO_NUMBERS_HPP
-#define ADD_TWO_NUMBERS_HPP
-
 #include <linked_list.hpp>
 
 class Solution {
@@ -29,5 +26,3 @@ public:
     return dummy_head->next;
   }
 };
-
-#endif // !ADD_TWO_NUMBERS_HPP

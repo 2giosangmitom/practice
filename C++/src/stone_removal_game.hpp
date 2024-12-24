@@ -1,6 +1,3 @@
-#ifndef STONE_REMOVAL_GAME_HPP
-#define STONE_REMOVAL_GAME_HPP
-
 class Solution {
 public:
   bool canAliceWin(int n) {
@@ -14,5 +11,3 @@ public:
     return count % 2 != 0;
   };
 };
-
-#endif // STONE_REMOVAL_GAME_HPP

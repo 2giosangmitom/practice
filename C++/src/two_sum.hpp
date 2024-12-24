@@ -1,6 +1,3 @@
-#ifndef TWO_SUM_HPP
-#define TWO_SUM_HPP
-
 #include <unordered_map>
 #include <vector>
 using namespace std;
@@ -20,5 +17,3 @@ public:
     return vector<int>{};
   };
 };
-
-#endif // TWO_SUM_HPP

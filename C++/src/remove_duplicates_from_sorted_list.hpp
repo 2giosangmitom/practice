@@ -1,6 +1,3 @@
-#ifndef REMOVE_DUPLICATES_FROM_SORTED_LIST
-#define REMOVE_DUPLICATES_FROM_SORTED_LIST
-
 #include <linked_list.hpp>
 
 class Solution {
@@ -21,5 +18,3 @@ public:
     return head;
   }
 };
-
-#endif // !REMOVE_DUPLICATES_FROM_SORTED_LIST

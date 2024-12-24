@@ -1,6 +1,3 @@
-#ifndef VALID_PARENTHESES_HPP
-#define VALID_PARENTHESES_HPP
-
 #include <string>
 #include <vector>
 using namespace std;
@@ -34,5 +31,3 @@ public:
     return stack.empty();
   };
 };
-
-#endif // VALID_PARENTHESES_HPP

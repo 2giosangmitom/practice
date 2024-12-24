@@ -1,6 +1,3 @@
-#ifndef PALINDROME_NUMBER_HPP
-#define PALINDROME_NUMBER_HPP
-
 class Solution {
 public:
   bool isPalindrome(int x) {
@@ -19,5 +16,3 @@ public:
     return reversed == x;
   };
 };
-
-#endif // PALINDROME_NUMBER_HPP

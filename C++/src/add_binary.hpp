@@ -1,9 +1,5 @@
-#ifndef ADD_BINARY_HPP
-#define ADD_BINARY_HPP
-
 #include <algorithm>
 #include <string>
-
 using namespace std;
 
 class Solution {
@@ -31,5 +27,3 @@ public:
     return result;
   }
 };
-
-#endif // ADD_BINARY_HPP

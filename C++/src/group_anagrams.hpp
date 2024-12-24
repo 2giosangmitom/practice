@@ -1,6 +1,3 @@
-#ifndef GROUP_ANAGRAMS_HPP
-#define GROUP_ANAGRAMS_HPP
-
 #include <algorithm>
 #include <string>
 #include <unordered_map>
@@ -26,5 +23,3 @@ public:
     return result;
   }
 };
-
-#endif // GROUP_ANAGRAMS_HPP

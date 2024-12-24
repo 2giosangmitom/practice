@@ -1,6 +1,3 @@
-#ifndef LARGEST_NUMBER_AT_LEAST_TWICE_OF_OTHERS_HPP
-#define LARGEST_NUMBER_AT_LEAST_TWICE_OF_OTHERS_HPP
-
 #include <vector>
 using namespace std;
 
@@ -25,5 +22,3 @@ public:
     return second_max * 2 <= max_num ? max_num_idx : -1;
   };
 };
-
-#endif // LARGEST_NUMBER_AT_LEAST_TWICE_OF_OTHERS_HPP

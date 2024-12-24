@@ -1,6 +1,3 @@
-#ifndef REVERSE_INTEGER_HPP
-#define REVERSE_INTEGER_HPP
-
 #include <climits>
 using namespace std;
 
@@ -27,5 +24,3 @@ public:
     return result;
   }
 };
-
-#endif // REVERSE_INTEGER_HPP

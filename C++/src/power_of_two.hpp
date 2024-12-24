@@ -1,6 +1,3 @@
-#ifndef POWER_OF_TWO_HPP
-#define POWER_OF_TWO_HPP
-
 #include <cmath>
 
 class Solution {
@@ -23,5 +20,3 @@ public:
     return t == need;
   };
 };
-
-#endif // POWER_OF_TWO_HPP

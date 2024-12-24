@@ -1,6 +1,3 @@
-#ifndef SPIRAL_MATRIX_2_HPP
-#define SPIRAL_MATRIX_2_HPP
-
 #include <vector>
 using namespace std;
 
@@ -29,5 +26,3 @@ public:
     return result;
   };
 };
-
-#endif // !SPIRAL_MATRIX_2_HPP

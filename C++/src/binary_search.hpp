@@ -1,6 +1,3 @@
-#ifndef BINARY_SEARCH_HPP
-#define BINARY_SEARCH_HPP
-
 #include <vector>
 using namespace std;
 
@@ -27,5 +24,3 @@ public:
     return -1;
   };
 };
-
-#endif // BINARY_SEARCH_HPP

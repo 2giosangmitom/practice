@@ -1,6 +1,3 @@
-#ifndef REMOVE_ELEMENT_HPP
-#define REMOVE_ELEMENT_HPP
-
 #include <vector>
 using namespace std;
 
@@ -17,5 +14,3 @@ public:
     return k;
   };
 };
-
-#endif // REMOVE_ELEMENT_HPP

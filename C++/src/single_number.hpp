@@ -1,6 +1,3 @@
-#ifndef SINGLE_NUMBER_HPP
-#define SINGLE_NUMBER_HPP
-
 #include <algorithm>
 #include <vector>
 using namespace std;
@@ -25,5 +22,3 @@ public:
     return nums[nums.size() - 1];
   };
 };
-
-#endif // SINGLE_NUMBER_HPP
