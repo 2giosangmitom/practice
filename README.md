@@ -7,7 +7,7 @@
 
 ## 📋 Overview
 
-This repository contains solutions to various LeetCode problems implemented in **C++**, **Go**, **Java**, and **JavaScript**.  
+This repository contains solutions to various LeetCode problems implemented in **C++**, **Go**, **Java**, and **JavaScript**.
 Each solution is tested and verified using GitHub Actions workflows.
 
 ## 📚 Problems and Solutions
