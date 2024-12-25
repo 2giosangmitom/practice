@@ -1,5 +1,5 @@
 {
-  description = "LeetCode solutions implemented in C++, Go, Java, JavaScript";
+  description = "LeetCode solutions implemented in C++, Java, JavaScript";
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
@@ -18,7 +18,6 @@
       in {
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [
-            go
             clang
             gtest
             jdk
