@@ -6,12 +6,6 @@ cpp:
     just build
     just test
 
-# Run Java tests
-java:
-    #!/usr/bin/env bash
-    cd Java
-    ./gradlew test
-
 # Run JavaScript tests
 javascript:
     #!/usr/bin/env bash

@@ -20,13 +20,10 @@
           buildInputs = with pkgs; [
             clang
             gtest
-            jdk
-            gradle
             tokei
             bashInteractive
             cmake
             gnumake
-            google-java-format
             just
             nodejs_22
           ];
