@@ -6,12 +6,6 @@ cpp:
     just build
     just test
 
-# Run Go tests
-go:
-    #!/usr/bin/env bash
-    cd Go
-    go test -v ./...
-
 # Run Java tests
 java:
     #!/usr/bin/env bash
