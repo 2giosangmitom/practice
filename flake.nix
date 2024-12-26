@@ -1,5 +1,5 @@
 {
-  description = "LeetCode solutions implemented in C++, Java, JavaScript";
+  description = "LeetCode solutions implemented in C++, JavaScript";
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
@@ -22,13 +22,14 @@
             gtest
             tokei
             bashInteractive
-            cmake
-            gnumake
             just
             nodejs_22
+            gnumake
           ];
           shellHook = ''
             export SHELL="${pkgs.bashInteractive}/bin/bash"
+            export GTEST_DEV="${pkgs.gtest.dev}/include/"
+            export GTEST="${pkgs.gtest}/lib"
           '';
         };
         formatter = pkgs.alejandra;

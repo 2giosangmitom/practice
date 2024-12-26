@@ -3,8 +3,8 @@ cpp:
     #!/usr/bin/env bash
     set -euxo pipefail
     cd C++
-    just build
-    just test
+    make
+    make run-tests
 
 # Run JavaScript tests
 javascript:
