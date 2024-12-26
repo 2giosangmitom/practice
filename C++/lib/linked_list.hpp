@@ -1,6 +1,3 @@
-#ifndef LINKED_LIST_HPP
-#define LINKED_LIST_HPP
-
 #include <cstddef>
 #include <sstream>
 #include <string>
@@ -34,9 +31,16 @@ public:
     ListNode *head = new ListNode(values[0]);
     ListNode *tail = head;
 
-    for (size_t i = 1; i < values.size(); ++i) {
-      tail->next = new ListNode(values[i]);
-      tail = tail->next;
+    try {
+      for (size_t i = 1; i < values.size(); ++i) {
+        tail->next = new ListNode(values[i]);
+        tail = tail->next;
+      }
+    } catch (const bad_alloc &) {
+      // If memory allocation fails, we must delete the already allocated nodes
+      // to avoid a memory leak
+      deleteList(head);
+      throw; // Re-throw the exception
     }
 
     return head;
@@ -47,7 +51,7 @@ public:
    *
    * @return A string representation of the list in the format "1 -> 2 -> 3".
    */
-  string to_string() {
+  string to_string() const {
     stringstream ss;
     const ListNode *current = this;
     if (!current) {
@@ -68,8 +72,14 @@ public:
   /**
    * Deletes the linked list starting from this node.
    */
-  ~ListNode() {
-    ListNode *current = this;
+  ~ListNode() { deleteList(this); }
+
+private:
+  /**
+   * Helper method to delete the linked list starting from the given node.
+   */
+  static void deleteList(ListNode *node) {
+    ListNode *current = node;
     while (current) {
       ListNode *nextNode = current->next;
       delete current;
@@ -77,5 +87,3 @@ public:
     }
   }
 };
-
-#endif // LINKED_LIST_HPP
