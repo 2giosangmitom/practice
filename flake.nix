@@ -25,6 +25,7 @@
             just
             nodejs_22
             gnumake
+            bear
           ];
           shellHook = ''
             export SHELL="${pkgs.bashInteractive}/bin/bash"
