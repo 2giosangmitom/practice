@@ -14,7 +14,7 @@
 | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                     | [C++](./src/longest_common_prefix.hpp)                   |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                             | [C++](./src/valid_parentheses.hpp)                       |
 | 27   | [Remove Element](https://leetcode.com/problems/remove-element/)                                                   | [C++](./src/remove_element.hpp)                          |
-| 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                   | N/A                                                      |
+| 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                   | [C++](./src/search_insert_position.hpp)                  |
 | 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                   | [C++](./src/group_anagrams.hpp)                          |
 | 59   | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)                                               | [C++](./src/spiral_matrix_2.hpp)                         |
 | 67   | [Add Binary](https://leetcode.com/problems/add-binary/)                                                           | [C++](./src/add_binary.hpp)                              |
