@@ -1,5 +1,5 @@
 {
-  description = "LeetCode solutions implemented in C++, JavaScript";
+  description = "LeetCode solutions implemented in C++";
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
@@ -16,7 +16,7 @@
           inherit system;
         };
       in {
-        devShells.default = pkgs.mkShell {
+        devShells.default = pkgs.mkShellNoCC {
           buildInputs = with pkgs; [
             clang
             gtest
