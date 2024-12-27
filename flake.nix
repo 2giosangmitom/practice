@@ -20,10 +20,7 @@
           buildInputs = with pkgs; [
             clang
             gtest
-            tokei
             bashInteractive
-            just
-            nodejs_22
             gnumake
             bear
           ];

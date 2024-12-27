@@ -1,4 +1,4 @@
-name: C++
+name: Test
 
 on:
   push:
@@ -16,4 +16,4 @@ jobs:
         uses: cachix/install-nix-action@v30
 
       - name: Run tests
-        run: nix develop --command just cpp
+        run: nix develop --command make run-tests
