@@ -1,3 +1,4 @@
+#include <cstdint>
 #include <sstream>
 #include <string>
 #include <vector>
@@ -11,9 +12,9 @@ public:
 
     vector<string> result;
 
-    for (int i = 0; i < nums.size(); i++) {
+    for (size_t i = 0; i < nums.size(); i++) {
       stringstream ss;
-      int end = i;
+      uint32_t end = i;
 
       while (end + 1 < nums.size() && nums[end + 1] == nums[end] + 1) {
         end++;
