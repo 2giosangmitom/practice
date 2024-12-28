@@ -24,7 +24,7 @@ $(BUILD_DIR)/%: ./tests/%.cpp
 	@$(CXX) $(CXXFLAGS) $< -o $@ $(LDFLAGS)
 
 # Build a specific test
-build-test:
+build-test: $(BUILD_DIR)
 	@if [ -z "$(file)" ]; then \
 		echo -e "$(RED)[ERROR]$(NORMAL) Please specify a test file with 'make build-test file=./tests/your_test.cpp'"; \
 		exit 1; \
