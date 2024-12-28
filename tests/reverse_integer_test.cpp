@@ -1,5 +1,5 @@
+#include "../src/reverse_integer.hpp"
 #include <gtest/gtest.h>
-#include <reverse_integer.hpp>
 
 class ReverseIntegerTest : public ::testing::Test {
 protected:

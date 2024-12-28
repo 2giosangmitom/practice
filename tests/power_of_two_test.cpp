@@ -1,5 +1,5 @@
+#include "../src/power_of_two.hpp"
 #include <gtest/gtest.h>
-#include <power_of_two.hpp>
 
 class PowerOfTwoTest : public ::testing::Test {
 protected:

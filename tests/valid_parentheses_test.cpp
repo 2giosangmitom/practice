@@ -1,5 +1,5 @@
+#include "../src/valid_parentheses.hpp"
 #include <gtest/gtest.h>
-#include <valid_parentheses.hpp>
 using namespace std;
 
 class ValidParenthesesTest : public ::testing::Test {

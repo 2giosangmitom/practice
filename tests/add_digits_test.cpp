@@ -1,4 +1,4 @@
-#include <add_digits.hpp>
+#include "../src/add_digits.hpp"
 #include <gtest/gtest.h>
 
 class AddDigitsTest : public ::testing::Test {

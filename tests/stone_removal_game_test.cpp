@@ -1,5 +1,5 @@
+#include "../src/stone_removal_game.hpp"
 #include <gtest/gtest.h>
-#include <stone_removal_game.hpp>
 
 class StoneRemovalGameTest : public ::testing::Test {
 protected:

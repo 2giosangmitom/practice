@@ -1,6 +1,6 @@
 # Variables
 CXX := clang++
-CXXFLAGS := -g -std=c++23 -Wall -Wextra -I./lib/ -I./src/ -I$(GTEST_DEV)
+CXXFLAGS := -g -std=c++23 -Wall -Wextra -I$(GTEST_DEV)
 LDFLAGS := -L$(GTEST) -lgtest_main -lgtest -lpthread
 TESTS := $(wildcard ./tests/*.cpp)
 BUILD_DIR := ./build

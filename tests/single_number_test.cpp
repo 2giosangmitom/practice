@@ -1,5 +1,5 @@
+#include "../src/single_number.hpp"
 #include <gtest/gtest.h>
-#include <single_number.hpp>
 
 class SingleNumberTest : public ::testing::Test {
 protected:

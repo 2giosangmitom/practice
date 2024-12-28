@@ -1,7 +1,5 @@
-#include <cstddef>
+#include "../src/remove_duplicates_from_sorted_list.hpp"
 #include <gtest/gtest.h>
-#include <remove_duplicates_from_sorted_list.hpp>
-#include <vector>
 
 class RemoveDuplicatesFromSortedListTest : public ::testing::Test {
 protected:

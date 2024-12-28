@@ -1,5 +1,5 @@
+#include "../src/two_sum.hpp"
 #include <gtest/gtest.h>
-#include <two_sum.hpp>
 
 class TwoSumTest : public ::testing::Test {
 protected:

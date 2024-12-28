@@ -1,5 +1,5 @@
+#include "../src/sort_an_array.hpp"
 #include <gtest/gtest.h>
-#include <sort_an_array.hpp>
 using namespace std;
 
 class SortTest : public ::testing::Test {

@@ -1,4 +1,4 @@
-#include <add_two_integers.hpp>
+#include "../src/add_two_integers.hpp"
 #include <gtest/gtest.h>
 
 class AddTwoIntegersTest : public ::testing::Test {

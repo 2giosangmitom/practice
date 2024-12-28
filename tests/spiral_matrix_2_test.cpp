@@ -1,5 +1,5 @@
+#include "../src/spiral_matrix_2.hpp"
 #include <gtest/gtest.h>
-#include <spiral_matrix_2.hpp>
 
 class SpiralMatrix2Test : public ::testing::Test {
 protected:

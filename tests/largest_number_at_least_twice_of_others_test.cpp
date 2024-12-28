@@ -1,5 +1,5 @@
+#include "../src/largest_number_at_least_twice_of_others.hpp"
 #include <gtest/gtest.h>
-#include <largest_number_at_least_twice_of_others.hpp>
 
 class LargestNumberAtLeastTwiceOfOthersTest : public ::testing::Test {
 protected:

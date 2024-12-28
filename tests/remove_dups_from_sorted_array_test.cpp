@@ -1,4 +1,4 @@
-#include "remove_dups_from_sorted_array2.hpp"
+#include "../src/remove_dups_from_sorted_array2.hpp"
 #include <gtest/gtest.h>
 
 class RemoveDupsFromSortedArray2 : public ::testing::Test {

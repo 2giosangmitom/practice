@@ -1,4 +1,4 @@
-#include <binary_search.hpp>
+#include "../src/binary_search.hpp"
 #include <gtest/gtest.h>
 
 class BinarySearchTest : public ::testing::Test {

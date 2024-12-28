@@ -1,5 +1,5 @@
+#include "../src/string_to_integer.hpp"
 #include <gtest/gtest.h>
-#include <string_to_integer.hpp>
 
 class StringToIntegerTest : public ::testing::Test {
 protected:

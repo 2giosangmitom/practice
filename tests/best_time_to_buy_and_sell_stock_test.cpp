@@ -1,5 +1,4 @@
-#include <best_time_to_buy_and_sell_stock.hpp>
-#include <cstdint>
+#include "../src/best_time_to_buy_and_sell_stock.hpp"
 #include <gtest/gtest.h>
 
 class BestTimeToBuyAndSellStock : public ::testing::Test {

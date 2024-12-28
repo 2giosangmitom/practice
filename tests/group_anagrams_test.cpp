@@ -1,5 +1,5 @@
+#include "../src/group_anagrams.hpp"
 #include <algorithm>
-#include <group_anagrams.hpp>
 #include <gtest/gtest.h>
 #include <string>
 #include <vector>

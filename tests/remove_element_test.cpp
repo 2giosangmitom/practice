@@ -1,6 +1,6 @@
+#include "../src/remove_element.hpp"
 #include <algorithm>
 #include <gtest/gtest.h>
-#include <remove_element.hpp>
 
 class RemoveElementTest : public ::testing::Test {
 protected:

@@ -1,5 +1,5 @@
+#include "../src/search_insert_position.hpp"
 #include <gtest/gtest.h>
-#include <search_insert_position.hpp>
 
 class SearchInsertPositionTest : public ::testing::Test {
 protected:

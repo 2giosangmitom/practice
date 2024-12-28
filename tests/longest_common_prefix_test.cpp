@@ -1,5 +1,5 @@
+#include "../src/longest_common_prefix.hpp"
 #include <gtest/gtest.h>
-#include <longest_common_prefix.hpp>
 using namespace std;
 
 class LongestCommonPrefixTest : public ::testing::Test {

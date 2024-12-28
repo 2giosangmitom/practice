@@ -1,5 +1,5 @@
+#include "../src/palindrome_number.hpp"
 #include <gtest/gtest.h>
-#include <palindrome_number.hpp>
 
 class PalindromeTest : public ::testing::Test {
 protected:
