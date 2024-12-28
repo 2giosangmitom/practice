@@ -30,7 +30,7 @@
 | 747  | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [C++](./src/largest_number_at_least_twice_of_others.hpp) |
 | 912  | [Sort an Array](https://leetcode.com/problems/sort-an-array/)                                                     | [C++](./src/sort_an_array.hpp)                           |
 | 1518 | [Water Bottles](https://leetcode.com/problems/water-bottles/)                                                     | [C++](./src/water_bottles.hpp)                           |
-| 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)   | N/A                                                      |
+| 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)   | [C++](./src/count_odd.hpp)                               |
 | 1603 | [Design Parking System](https://leetcode.com/problems/design-parking-system/)                                     | N/A                                                      |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/)                                               | [C++](./src/add_two_integers.hpp)                        |
 | 3360 | [Stone Removal Game](https://leetcode.com/problems/stone-removal-game/)                                           | [C++](./src/stone_removal_game.hpp)                      |

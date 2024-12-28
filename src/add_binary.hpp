@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-  string addBinary(string &a, string &b) {
+  string addBinary(const string &a, const string &b) {
     int len_a = a.size();
     int len_b = b.size();
 
