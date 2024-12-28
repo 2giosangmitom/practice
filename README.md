@@ -25,7 +25,7 @@
 | 228  | [Summary Ranges](https://leetcode.com/problems/summary-ranges/)                                                   | N/A                                                      |
 | 231  | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                       | [C++](./src/power_of_two.hpp)                            |
 | 258  | [Add Digits](https://leetcode.com/problems/add-digits/)                                                           | [C++](./src/add_digits.hpp)                              |
-| 268  | [Missing Number](https://leetcode.com/problems/missing-number/)                                                   | N/A                                                      |
+| 268  | [Missing Number](https://leetcode.com/problems/missing-number/)                                                   | [C++](./src/missing_number.hpp)                          |
 | 704  | [Binary Search](https://leetcode.com/problems/binary-search/)                                                     | [C++](./src/binary_search.hpp)                           |
 | 747  | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [C++](./src/largest_number_at_least_twice_of_others.hpp) |
 | 912  | [Sort an Array](https://leetcode.com/problems/sort-an-array/)                                                     | [C++](./src/sort_an_array.hpp)                           |
