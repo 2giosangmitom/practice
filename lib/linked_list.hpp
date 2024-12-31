@@ -9,10 +9,7 @@ class ListNode {
 public:
   int val;
   ListNode *next;
-
-  ListNode() : val(0), next(nullptr) {}
-  ListNode(int x) : val(x), next(nullptr) {}
-  ListNode(int x, ListNode *next) : val(x), next(next) {}
+  explicit ListNode(int x = 0, ListNode *next = nullptr) : val{x}, next{next} {}
 
   /**
    * Constructs a linked list from a vector of integers.
