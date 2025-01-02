@@ -22,6 +22,7 @@
 | 83   | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)           | [C++](./src/remove_duplicates_from_sorted_list.hpp)      |
 | 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                 | [C++](./src/best_time_to_buy_and_sell_stock.hpp)         |
 | 136  | [Single Number](https://leetcode.com/problems/single-number/)                                                     | [C++](./src/single_number.hpp)                           |
+| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                             | [C++](./src/reverse_linked_list.hpp)                     |
 | 228  | [Summary Ranges](https://leetcode.com/problems/summary-ranges/)                                                   | [C++](./src/summary_ranges.hpp)                          |
 | 231  | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                       | [C++](./src/power_of_two.hpp)                            |
 | 258  | [Add Digits](https://leetcode.com/problems/add-digits/)                                                           | [C++](./src/add_digits.hpp)                              |
